@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contato</title>
+  </head>
+  <body>
+    <form action="Contato">
+      <fieldset>
+        <legend>Entre em contato</legend>
+        <main>
+          <section>
+            <strong>Assunto:</strong>
+            <select name="Assunto" id="">
+              <option value="">Suporte</option>
+              <option value="">Reclamação</option>
+              <option value="">Sugestão</option>
+            </select>
+          </section>
+
+          <br />
+
+          <section>
+            <label for="name"> <strong>Nome Completo</strong> </label>
+            <br />
+            <input id="name" type="text" name="name" placeholder="Seu nome" />
+          </section>
+
+          <br />
+
+          <section>
+            <label for="email"><strong>E-mail</strong></label>
+            <br />
+            <input
+              id="email"
+              type="text"
+              name="email"
+              placeholder="email@seudominio.com"
+            />
+          </section>
+
+          <br />
+
+          <section>
+            <label for="mensagem"><strong>Mensagem</strong></label>
+            <br />
+            <textarea
+              name="mensagem"
+              id="mensagem"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </section>
+
+          <br />
+
+          <section>
+            <input type="checkbox" name="novidades" id="novidades" />
+            <label for="novidades">Aceito receber novidades por e-mail</label>
+          </section>
+
+          <br />
+
+          <section>
+            <button type="submit">Enviar</button>
+          </section>
+        </main>
+      </fieldset>
+    </form>
+  </body>
+</html>
